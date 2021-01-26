@@ -1,11 +1,14 @@
 body{
     margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header{
     background: gray;
     padding: 20px;
     height: auto;
+    color: white;
+    font-size: 14px;
 }
 
 .header img{
@@ -15,6 +18,7 @@ body{
 
 .header-nav{
     margin: 20px 0;
+    text-align: center;
 }
 
 .header-nav a{
@@ -28,6 +32,11 @@ body{
 .main{
     background: lightgray;
     padding: 20px;
+    text-align: center;
+}
+
+.main-speciality {
+    color: yellow;
 }
 
 .footer{
